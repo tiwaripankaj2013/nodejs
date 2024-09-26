@@ -1,0 +1,44 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+.header {
+    width: 100%;
+    height: 4rem;
+    background-color: rgb(228, 183, 84);
+    color: #fff;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu-item {
+    list-style: none;
+    margin: 0 1rem;
+    padding: 0;
+    display: flex;
+}
+
+.nav-menu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-menu-item a:hover,
+.nav-menu-item a:focus,
+.nav-menu-item a:active,
+.nav-menu-item a.active {
+    color: blueviolet;
+}
